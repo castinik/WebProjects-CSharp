@@ -1,0 +1,16 @@
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.exe
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.deps.json
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.runtimeconfig.json
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.runtimeconfig.dev.json
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.dll
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\ref\CombinationsMakerConsole.dll
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\bin\Debug\net5.0\CombinationsMakerConsole.pdb
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.csproj.AssemblyReference.cache
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.AssemblyInfoInputs.cache
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.AssemblyInfo.cs
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.dll
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\ref\CombinationsMakerConsole.dll
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.pdb
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\CombinationsMakerConsole\obj\Debug\net5.0\CombinationsMakerConsole.genruntimeconfig.cache

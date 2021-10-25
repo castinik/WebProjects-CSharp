@@ -1,0 +1,66 @@
+﻿@model UserModel
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="text-center">
+    @if (Model.userState == false && Model.user.Email != null)
+    {
+        <div class="content-bg">
+            <h1 class="error-text">
+                Data already exist, please <a asp-controller="Home" asp-action="Register">try again</a>
+            </h1>
+        </div>
+    }
+    else if (Model.userState == true && Model.user.Email != null)
+    {
+        <div class="text-center content-bg" style="font-style: italic">
+            <p class="display">Welcome @Model.user.Firstname @Model.user.Lastname now you can log in and reserve a table.</p>
+        </div>
+    }
+    else
+    {
+        <div class="title-page">
+            <h1>Enter your data to register</h1>
+        </div>
+        <form class="content-bg" method="post" asp-controller="Home" asp-action="Register">
+            <div class="text-center">
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">First Name</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="firstName" type="text" class="form-control" placeholder="First name">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">Last Name</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="lastName" type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">Email</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="email" type="email" class="form-control" placeholder="email@@email.com">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">Password</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="password" type="password" class="form-control" placeholder="Password">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-8 offset-sm-2 col-form-label mt-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">
+                                Agree privacy conditions
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    }
+</div>
+<script src="~/js/menu.js"></script>

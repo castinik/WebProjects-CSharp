@@ -1,0 +1,80 @@
+﻿@model ReservationModel
+@inject RistoWeb.Repository.DBManagerRepo dbManager
+@{
+    ViewData["Title"] = "Reservation";
+}
+
+<div class="text-center">
+    @if (Model.successReservation)
+    {
+        string timeRes = string.Empty;
+        if (Model.reservation.Lunch)
+            timeRes = "lunch";
+        else if (Model.reservation.Dinner)
+            timeRes = "dinner";
+    <div class="title-page">
+        <h1>Reservation made succesfully</h1>
+    </div>
+        <div class="content-bg" id="succesfull-res">
+            <div class="text-center">
+                <dl>
+                    <dt>Reservation name:</dt>
+                    <dd>@dbManager.GetUserName()</dd>
+                    <dt>Seats:</dt>
+                    <dd>@Model.reservation.Seats</dd>
+                    <dt>Reservation date:</dt>
+                    <dd>@Model.reservation.DateRes at @timeRes</dd>
+                </dl>
+            </div>
+        </div>
+
+    }
+    else if (Model.seatsFull)
+    {
+        <div class="content-bg">
+            <h4 class="display-3">All seats are reserved</h4>
+        </div>
+    }
+    else if (Model.isAlreadyReserved)
+    {
+        <div class="content-bg" style="text-align: center">
+            <h4 class="display-3">You have already reserved a table</h4>
+        </div>
+    }
+    else if (!Model.successReservation && !Model.isAlreadyReserved && !Model.seatsFull)
+    {
+        <div class="title-page">
+            <h1>Reserve a table</h1>
+        </div>
+        <form class="content-bg" method="post" asp-controller="Home" asp-action="Reservation">
+            <div class="text-center">
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">When would you come?</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="date" type="date" class="form-control" asp-for="reservation.DateRes" placeholder="Date of reservation">
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-8 offset-sm-2 col-form-label mt-3">How many are you?</label>
+                    <div class="col-8 offset-sm-2">
+                        <input name="seats" type="number" class="form-control" placeholder="1">
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="form-check col">
+                        <input class="form-check-input" id="inpLunch" onclick="checkCheck()" name="lunch" type="checkbox" asp-for="reservation.Lunch">
+                        <label class="form-check-label">For lunch</label>
+                    </div>
+                    <div class="form-check col">
+                        <input class="form-check-input" id="inpDinner" onclick="checkCheck()" name="dinner" type="checkbox" asp-for="reservation.Dinner">
+                        <label class="form-check-label">For dinner</label>
+                    </div>
+                </div>
+                <br />
+                <button type="submit" class="btn btn-primary">Reserve a table</button>
+            </div>
+        </form>
+    }
+</div>
+<script src="~/js/menu.js"></script>

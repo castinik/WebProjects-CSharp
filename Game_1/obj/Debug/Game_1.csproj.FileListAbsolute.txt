@@ -1,0 +1,7 @@
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\bin\Debug\Game_1.exe.config
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\bin\Debug\Game_1.exe
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\bin\Debug\Game_1.pdb
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\obj\Debug\Game_1.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\obj\Debug\Game_1.exe
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\obj\Debug\Game_1.pdb
+C:\Users\Utente\Documents\Programmazione\C#\Progetti\Game_1\obj\Debug\Game_1.csproj.AssemblyReference.cache

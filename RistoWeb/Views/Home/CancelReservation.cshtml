@@ -1,0 +1,36 @@
+﻿@model List<RistoWeb.Entity.Reservation>
+@using RistoWeb.Entity
+@{
+    ViewData["Title"] = "Cancel reservation";
+}
+<div class="text-center">
+    <div class="title-page">
+        <h1>Select the reservation to cancel</h1>
+    </div>
+    <div class="text-center content-bg" style="display: block">
+        <div class="row">
+            <div class="col">
+                <select name="reservation" id="DDLreservation">
+                    @foreach (Reservation reservation in Model)
+                    {
+                        string timeRes = string.Empty;
+                        if (reservation.Lunch)
+                            timeRes = "lunch";
+                        else if (reservation.Dinner)
+                            timeRes = "dinner";
+                        <option value="@reservation.ResID">
+                            @reservation.DateRes for @reservation.Seats at @timeRes
+                        </option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary" onclick="removeReservation()">Cancel reservation</button>
+            </div>
+        </div>
+    </div>
+    <div id="reserveList"></div>
+</div>
+<script src="~/js/menu.js"></script>

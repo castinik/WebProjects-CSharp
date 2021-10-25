@@ -1,0 +1,10 @@
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.exe.config
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.exe
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\bin\Debug\Calcolatrice.pdb
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.csprojAssemblyReference.cache
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.Calcolatrice.resources
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.Properties.Resources.resources
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.csproj.GenerateResource.cache
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.exe
+C:\Users\Utente\Documents\Visual Studio 2017\PROJECTS\WindowsForms\Calcolatrice\Calcolatrice\obj\Debug\Calcolatrice.pdb

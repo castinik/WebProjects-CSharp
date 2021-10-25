@@ -1,0 +1,130 @@
+* {
+	box-sizing: content-box;
+}
+
+html {
+	min-height: 100px;
+	background-color: darkslategray;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+/*_START_HEADER_*/
+#header {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 0px;
+}
+
+.page_title {
+	margin-top: 5px;
+	margin-bottom: 25px;
+	font-size: 27px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-style: italic;
+	color: darkorange;
+	text-align: center;
+}
+
+/*_END_HEADER_*/
+
+
+/*_START_CONTENT_*/
+#content {
+	width: 100%;
+	margin-bottom: 40px;
+	min-height: 100%;
+}
+
+#calculator {
+	min-height: 100%;
+	width: 350px;
+	margin-top: calc(50% - 200px);
+	margin: auto;
+	border: 10px solid black;
+	border-radius: 5px;
+}
+
+#table {
+	min-width: 100%;
+	min-height: 100%;
+	background-color: dimgray;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	width: calc(100% / 4);
+	height: calc(100% / 5);
+	border-collapse: collapse;
+	text-align: center;
+}
+
+button {
+	width: 65px;
+	height: 80px;
+	border: 3px solid black;
+	border-radius: 6px;
+	background-color: gold;
+	text-align: center;
+	display: inline-block;
+}
+
+#result {
+	height: auto;
+	margin: auto;
+	min-width: 40%;
+	padding: 1px;
+	text-align: left;
+	font-size: 50px;
+	background-color: dimgray;
+}
+
+#equal {
+	font-weight: 1000;
+	background-color: darkorange;
+}
+
+#history {
+	height: 100%;
+	font-size: 10px;
+	text-align: center;
+}
+
+.signs {
+	font-weight: 1000;
+	border: 3px solid black;
+	background-color: orange;
+}
+
+button:active,
+#equal:active {
+	background-color: gray;
+}
+
+
+/*_END_CONTENT_*/
+
+
+/*_START_FOOTER_*/
+#footer {
+	width: 100%;
+	height: 40px;
+	background-color: darkslategray;
+	position: fixed;
+	bottom: 0px;
+}
+
+#footer h6 {
+	width: 300px;
+	text-align: center;
+	margin-top: 10px;
+	position: fixed;
+	left: calc(50% - 150px);
+}
+
+/*_END_FOOTER_*/

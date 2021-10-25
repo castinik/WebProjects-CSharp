@@ -1,0 +1,19 @@
+﻿@model List<RistoWeb.Entity.User>
+@{
+    ViewData["Title"] = "View All User";
+}
+<div class="text-center">
+    @if (Model.Any())
+    {
+        <h1 class="display-4">Users</h1>
+        foreach (RistoWeb.Entity.User user in Model)
+        {
+            <p>ID: @user.UserID - User email: @user.Email - Password: @user.Password</p>
+        }
+    }
+    else
+    {
+        <h1 class="display-4">No users</h1>
+    }
+
+</div>

@@ -1,0 +1,34 @@
+﻿@model MenuModel
+@using RistoWeb.Entity
+@{
+    ViewData["Title"] = "Daily Menu";
+}
+
+<div class="text-center">
+    <div class="title-page">
+        <h1>Daily menù</h1>
+    </div>    
+    <table class="content-bg" id="table-menu">
+        <thead>
+            <tr>
+                <th colspan="2" class="p-1">
+                    <h6 class="display-4">These are our dishes today</h6>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Course course in Model.menu)
+            {
+                <tr>
+                    <td>
+                        <h6 class="display course text-center">@course.C_Name</h6>
+                    </td>
+                    <td>
+                        <h6 class="display course">@course.Price€</h6>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<script src="~/js/menu.js"></script>
